@@ -19,7 +19,7 @@ const Showcase = () => {
 
             timeline
                 .to('.mask img', {
-                    transform: 'scale(1.2)'
+                    transform: 'scale(1.5)'
                 }).to('.content', { opacity: 1, y: 0, ease: 'power1.in' });
 
             return () => {

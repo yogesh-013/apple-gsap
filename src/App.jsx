@@ -7,6 +7,7 @@ import Performance from './components/Performance'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import Features from './components/Feature'
+import Highlights from './components/Highlights'
 function App() {
 gsap.registerPlugin(ScrollTrigger)
   return (
@@ -17,7 +18,9 @@ gsap.registerPlugin(ScrollTrigger)
             <Showcase />
             <Performance />
             <Features />
+            <Highlights />
         </main>
+
     )
 }
 

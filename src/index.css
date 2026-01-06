@@ -297,13 +297,13 @@ body {
   }
 
   #highlights {
-    @apply container mx-auto lg:py-40 max-lg:px-5;
+    @apply container mx-auto p-10 lg:p-20;
 
-    h2 {
+    .highlights-h2 {
       @apply text-white font-semibold text-3xl lg:text-7xl text-center max-w-3xl mx-auto;
     }
 
-    h3 {
+    .highlights-h3 {
       @apply text-[#F5F5F7] font-semibold text-xl lg:text-3xl text-center mt-10;
     }
 

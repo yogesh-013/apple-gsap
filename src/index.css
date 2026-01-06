@@ -279,7 +279,7 @@ body {
   #features {
     @apply pt-40 relative;
 
-    h2 {
+    .feature-h2 {
       @apply text-white font-semibold text-3xl lg:text-7xl text-center max-w-3xl mx-auto;
     }
 
@@ -290,7 +290,7 @@ body {
     .box {
       @apply max-w-xs absolute;
 
-      p {
+      .feature-p {
         @apply lg:h3-semibold base-semibold;
       }
     }
